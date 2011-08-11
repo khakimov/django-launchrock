@@ -6,11 +6,7 @@
          PROJECT_NAME is currently invite-only, but we invite more people every week. If you'd like an invite, fill out the form below; we'll send you an invitation when we're ready (usually only a few weeks). 
         
         <form method="post" action="">{% csrf_token %}
-            <p><label for="id_email">Email:</label>
-            {{ form.email }}</p>
-            <p>{% if form.email.errors %}
-                <span class="error">{{ form.email.errors|join:", "}}</span>
-                {% endif %}
+                {{ form.as_p }}
             <p><input type="submit" value="Submit"></p>
         </form>
     </body>

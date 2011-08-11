@@ -1,6 +1,6 @@
 Launch soon
 ===========
 
-Simple Django application that helps to make a page "Launch/coming soon". Store email, ip address, http_referer and data of email submit. 
+Simple Django application that helps to make a page "Launch/coming soon". Store email, ip address, http_referer and date of submit. 
 
 Nice design is coming soon ;)
