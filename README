@@ -1,3 +1,6 @@
-Simple Django application that helps to make a page git "Launch/coming soon". Store email, ip address, http_referer and data of submit. 
+Launch soon
+===========
 
-Nice design coming soon ;)
+Simple Django application that helps to make a page "Launch/coming soon". Store email, ip address, http_referer and data of email submit. 
+
+Nice design is coming soon ;)
